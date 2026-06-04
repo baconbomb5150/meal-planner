@@ -58,6 +58,12 @@ function renderHome() {
       Run the weekly plan, then <b>export-app-data</b> + <b>build.py</b>.</div>`;
     return;
   }
+  const nSkipped = Object.values(skips).filter(Boolean).length;
+  if (nSkipped) {
+    wrap.appendChild(el('div', 'skipbanner',
+      `⊘ ${nSkipped} meal${nSkipped > 1 ? 's' : ''} skipped — removed from your grocery list`));
+  }
+
   const byDay = {};
   MENU.forEach(m => { (byDay[m.day] = byDay[m.day] || []).push(m); });
 
@@ -67,19 +73,28 @@ function renderHome() {
     byDay[day].forEach(m => {
       const rec = recipeFor(m);
       const leftovers = /leftover/i.test(m.name);
-      const card = el('div', 'card');
+      const key = m.day + '|' + m.meal;
+      const skipped = !!skips[key];
+      const icon = m.meal === 'dinner' ? '🍽️' : m.meal === 'breakfast' ? '🍳' : '🥪';
+      const card = el('div', 'card' + (skipped ? ' skipped' : ''));
       card.innerHTML = `
-        ${rec.image ? `<img src="${esc(rec.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>${m.meal === 'dinner' ? '🍽️' : m.meal === 'breakfast' ? '🍳' : '🥪'}</div>'">`
-                    : `<div class="noimg">${m.meal === 'dinner' ? '🍽️' : m.meal === 'breakfast' ? '🍳' : '🥪'}</div>`}
+        ${rec.image ? `<img src="${esc(rec.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;noimg&quot;>${icon}</div>'">`
+                    : `<div class="noimg">${icon}</div>`}
         <div class="meta">
-          <div class="mealtag">${MEAL_LABEL[m.meal] || m.meal}${m.source === 'new' ? ' · <span class="newbadge">NEW</span>' : ''}</div>
+          <div class="mealtag">${MEAL_LABEL[m.meal] || m.meal}${m.source === 'new' ? ' · <span class="newbadge">NEW</span>' : ''}${skipped ? ' · <span class="skiptag">SKIPPED</span>' : ''}</div>
           <div class="name">${esc(m.name)}</div>
           <div class="tags">
             ${rec.cuisine ? `<span class="pill">${esc(rec.cuisine)}</span>` : ''}
             ${rec.effort ? `<span class="pill">${esc(rec.effort)}</span>` : ''}
           </div>
-        </div>`;
+        </div>
+        ${leftovers ? '' : `<button class="skipbtn" title="${skipped ? 'Add back' : 'Skip this meal'}">${skipped ? '↩︎' : '⊘'}</button>`}`;
       card.onclick = () => leftovers ? openLeftovers() : openRecipe(rec, m.meal);
+      const sb = $('.skipbtn', card);
+      if (sb) sb.onclick = e => {
+        e.stopPropagation();
+        skips[key] = !skips[key]; saveSkips(); renderHome();
+      };
       wrap.appendChild(card);
     });
   });
@@ -267,39 +282,48 @@ function loadChecks() {
 }
 function saveChecks() { localStorage.setItem('mp_checks', JSON.stringify({ week: WEEK_ID, items: checks })); }
 
+// skipped meals (per device, reset on a new week) — drive both home + grocery
+let skips = loadSkips();
+function loadSkips() {
+  try { const s = JSON.parse(localStorage.getItem('mp_skips')); if (s && s.week === WEEK_ID) return s.set || {}; } catch (_) {}
+  return {};
+}
+function saveSkips() { localStorage.setItem('mp_skips', JSON.stringify({ week: WEEK_ID, set: skips })); }
+
 const collapsed = {};
 function renderGrocery() {
   const v = $('#grocery .pad');
-  const sections = Object.entries(WEEK_GROCERY).filter(([, items]) => items.length);
-  if (!sections.length) {
-    v.innerHTML = `<div class="grocery-empty">No grocery list for this week yet.<br><br>
-      Run the weekly plan, then <b>export-app-data</b> + <b>build.py</b>.</div>`;
+  const built = Grocery.build(MENU, skips);          // computed from non-skipped meals
+  const all = built.flatMap(s => s.items);
+  if (!all.length) {
+    v.innerHTML = `<div class="grocery-empty">No grocery list for this week yet.</div>`;
     return;
   }
-  const all = sections.flatMap(([sec, items]) => items.map(it => sec + '|' + it));
   const total = all.length;
-  const done = all.filter(k => checks[k]).length;
+  const done = all.filter(it => checks[it.name]).length;
+  const nSkipped = Object.values(skips).filter(Boolean).length;
 
-  let html = `<div class="section-label">Week of ${esc(WEEK_ID)} · auto-filled</div>
+  let html = `<div class="section-label">Week of ${esc(WEEK_ID)}${nSkipped ? ` · ${nSkipped} meal${nSkipped > 1 ? 's' : ''} skipped` : ''}</div>
     <div class="grocery-head">
       <div class="progress"><span style="width:${total ? (done / total * 100) : 0}%"></span></div>
       <div style="color:var(--muted);font-size:13px;white-space:nowrap">${done}/${total}</div>
     </div>
     <div style="margin-bottom:14px"><button class="linkbtn" id="resetGro">Uncheck all</button></div>`;
 
-  sections.forEach(([sec, items]) => {
-    const rows = items.map(it => ({ key: sec + '|' + it, text: it, checked: !!checks[sec + '|' + it] }))
+  built.forEach(sec => {
+    const rows = sec.items.map(it => ({ name: it.name, label: it.label, days: it.days, checked: !!checks[it.name] }))
       .sort((a, b) => a.checked - b.checked); // checked sink to bottom
     const left = rows.filter(r => !r.checked).length;
-    const isCol = collapsed[sec];
-    html += `<div class="aisle ${isCol ? 'collapsed' : ''}" data-aisle="${esc(sec)}">
+    const isCol = collapsed[sec.aisle];
+    html += `<div class="aisle ${isCol ? 'collapsed' : ''}" data-aisle="${esc(sec.aisle)}">
       <div class="aisle-h"><span class="caret">▼</span>
-        <span class="nm">${esc(sec)}</span>
+        <span class="nm">${esc(sec.aisle)}</span>
         <span class="ct">${left ? left + ' left' : 'all ✓'}</span></div>
       <div class="items">
-        ${rows.map(r => `<div class="gitem ${r.checked ? 'checked' : ''}" data-key="${esc(r.key)}">
+        ${rows.map(r => `<div class="gitem ${r.checked ? 'checked' : ''}" data-key="${esc(r.name)}">
             <div class="box">${r.checked ? '✓' : ''}</div>
-            <div><span class="label">${esc(r.text)}</span></div>
+            <div><span class="label">${esc(r.label)}</span>
+              <span class="flag">${esc(r.days.join(', '))}</span></div>
           </div>`).join('')}
       </div></div>`;
   });

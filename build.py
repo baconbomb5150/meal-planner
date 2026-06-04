@@ -47,6 +47,7 @@ subtitle = f"Week of {week}" if menu else f"{len(recipes)} recipes"
 data_js = json.dumps(app_data, ensure_ascii=False).replace("</", "<\\/")
 css_v = _ver("app.css")
 js_v = _ver("app.js")
+gro_v = _ver("grocery.js")
 
 html = f"""<!doctype html>
 <html lang="en">
@@ -103,6 +104,7 @@ html = f"""<!doctype html>
 </section>
 
 <script>const APP_DATA = {data_js};</script>
+<script src="grocery.js?v={gro_v}"></script>
 <script src="app.js?v={js_v}"></script>
 </body>
 </html>
