@@ -79,7 +79,7 @@ function renderHome() {
             ${rec.effort ? `<span class="pill">${esc(rec.effort)}</span>` : ''}
           </div>
         </div>`;
-      card.onclick = () => leftovers ? openLeftovers() : openRecipe(rec);
+      card.onclick = () => leftovers ? openLeftovers() : openRecipe(rec, m.meal);
       wrap.appendChild(card);
     });
   });
@@ -94,9 +94,12 @@ function openLeftovers() {
 }
 
 /* ================================================================ RECIPE */
-function openRecipe(r) {
+function openRecipe(r, meal) {
   const v = $('#recipe');
   const hasSteps = parseSteps(r.instructions).length > 0;
+  const scaledNote = meal === 'dinner'
+    ? `<div class="scalenote">⚖️ Amounts scaled for your household (~3.5 servings — cooks a little extra for leftover lunches)</div>`
+    : '';
   v.innerHTML = `
     ${r.image ? `<img class="hero" src="${esc(r.image)}" alt="" onerror="this.style.display='none'">` : ''}
     <div class="detail-h">
@@ -108,6 +111,7 @@ function openRecipe(r) {
       </div>
     </div>
     ${hasSteps ? `<button class="bigbtn" id="startCook">▶  Start cooking</button>` : ''}
+    ${scaledNote}
     <div class="ingredients">
       <h3>Ingredients</h3>
       <ul>${splitIngredients(r.ingredients).map(i => `<li>${esc(i)}</li>`).join('') || '<li>—</li>'}</ul>

@@ -94,6 +94,9 @@ main { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .detail-h { padding: 16px; }
 .detail-h h2 { margin: 0 0 8px; font-size: 24px; }
 .detail-h .tags { display: flex; gap: 8px; flex-wrap: wrap; }
+.scalenote { margin: 0 16px 16px; padding: 11px 14px; background: var(--surface-2);
+  border: 1px solid var(--line); border-radius: 12px; color: var(--muted);
+  font-size: 13px; line-height: 1.4; }
 .ingredients { padding: 0 16px; }
 .ingredients h3 { font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; }
 .ingredients ul { list-style: none; padding: 0; margin: 0; }
