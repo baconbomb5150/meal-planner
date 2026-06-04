@@ -211,3 +211,23 @@ main { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .progress { flex: 1; height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
 .progress > span { display: block; height: 100%; background: var(--good); width: 0; transition: width .25s; }
 .linkbtn { background: none; border: none; color: var(--accent); font-size: 14px; cursor: pointer; padding: 6px; }
+
+/* ---------- passphrase gate ---------- */
+.gate {
+  position: fixed; inset: 0; z-index: 1000; background: var(--bg);
+  display: flex; align-items: center; justify-content: center; padding: 24px;
+}
+.gate-box { width: 100%; max-width: 320px; text-align: center; }
+.gate-emoji { font-size: 52px; }
+.gate-box h2 { margin: 10px 0 4px; font-size: 26px; }
+.gate-box p { color: var(--muted); margin: 0 0 22px; }
+.gate-box input {
+  width: 100%; background: var(--surface); border: 1px solid var(--line); color: var(--text);
+  border-radius: 14px; padding: 16px; font-size: 18px; text-align: center; margin-bottom: 12px;
+}
+.gate-box input:focus { outline: none; border-color: var(--accent); }
+.gate-box button {
+  width: 100%; background: var(--accent); color: #1a1008; border: none;
+  border-radius: 14px; padding: 16px; font-size: 18px; font-weight: 800; cursor: pointer;
+}
+.gate-err { color: var(--danger); min-height: 22px; margin-top: 12px; font-size: 15px; }

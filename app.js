@@ -318,8 +318,49 @@ function renderGrocery() {
   });
 }
 
+/* ================================================================= GATE
+   Lightweight shared-passphrase screen. The repo is public, so only the
+   SHA-256 HASH of the passphrase lives here — never the passphrase itself.
+   Client-side only: keeps casual visitors out, not a determined attacker. */
+const PASS_HASH = '444a5ce33d8698bbb3f672c603e63065660229d3d40bb487f86bb87fed419b71';
+
+async function sha256hex(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
+function showGate() {
+  if (localStorage.getItem('mp_unlocked') === '1') return;
+  const ov = el('div', 'gate');
+  ov.innerHTML = `<div class="gate-box">
+      <div class="gate-emoji">🍳</div>
+      <h2>Meal Planner</h2>
+      <p>Enter the passphrase</p>
+      <input id="gateInput" type="password" autocapitalize="none" autocorrect="off"
+             autocomplete="off" spellcheck="false" placeholder="passphrase">
+      <button id="gateBtn">Unlock</button>
+      <div class="gate-err" id="gateErr"></div>
+    </div>`;
+  document.body.appendChild(ov);
+  const tryUnlock = async () => {
+    const v = $('#gateInput').value.trim().toLowerCase();
+    if (!v) return;
+    if (await sha256hex(v) === PASS_HASH) {
+      localStorage.setItem('mp_unlocked', '1');
+      ov.remove();
+    } else {
+      $('#gateErr').textContent = 'Nope — try again';
+      $('#gateInput').value = '';
+      $('#gateInput').focus();
+    }
+  };
+  $('#gateBtn', ov).onclick = tryUnlock;
+  $('#gateInput', ov).addEventListener('keydown', e => { if (e.key === 'Enter') tryUnlock(); });
+  $('#gateInput', ov).focus();
+}
+
 /* ===================================================================== WIRE */
 function init() {
+  showGate();
   renderHome();
   renderGrocery();
 
