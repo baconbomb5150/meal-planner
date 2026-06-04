@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Generate index.html for the phone app by baking recipe data inline.
+"""Generate index.html for the phone app by baking the week's data inline.
 
-Run this whenever the recipe pool / weekly plan changes:
+Run this whenever the weekly plan changes:
 
-    python3 build.py
+    python3 sheets_helper.py export-app-data   # pull this week from the Sheet
+    python3 build.py                           # bake it into index.html
 
-It reads recipes_full.json (the same data the Google Sheet holds) and writes
-a single self-contained index.html that links app.css + app.js. Because the
-data is embedded, the app works offline straight from a file:// URL on a phone
+It prefers app_data.json (the Sheet export: pool + this week's menu +
+consolidated grocery list). If that's missing it falls back to recipes_full.json
+(pool only). The data is embedded, so the app works offline from a file:// URL
 or hosted statically (e.g. GitHub Pages) with no server or API.
 """
 
@@ -15,14 +16,24 @@ import json
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, "recipes_full.json")
 OUT = os.path.join(HERE, "index.html")
 
-with open(DATA, encoding="utf-8") as f:
-    recipes = json.load(f)
+app_data_path = os.path.join(HERE, "app_data.json")
+if os.path.exists(app_data_path):
+    with open(app_data_path, encoding="utf-8") as f:
+        app_data = json.load(f)
+else:
+    # Fallback: pool only, no weekly menu/grocery.
+    with open(os.path.join(HERE, "recipes_full.json"), encoding="utf-8") as f:
+        app_data = {"generated": "", "recipes": json.load(f), "menu": [], "grocery": {}}
+
+recipes = app_data.get("recipes", [])
+menu = app_data.get("menu", [])
+week = app_data.get("generated", "")
+subtitle = f"Week of {week}" if menu else f"{len(recipes)} recipes"
 
 # Compact JSON, safely escaped for inlining inside a <script> tag.
-data_js = json.dumps(recipes, ensure_ascii=False).replace("</", "<\\/")
+data_js = json.dumps(app_data, ensure_ascii=False).replace("</", "<\\/")
 
 html = f"""<!doctype html>
 <html lang="en">
@@ -41,7 +52,7 @@ html = f"""<!doctype html>
 <header class="topbar">
   <button class="iconbtn" id="backHome" title="Home">‹</button>
   <h1>This Week</h1>
-  <span class="sub">{len(recipes)} recipes</span>
+  <span class="sub">{subtitle}</span>
 </header>
 
 <main>
@@ -51,7 +62,7 @@ html = f"""<!doctype html>
 </main>
 
 <nav class="tabbar">
-  <button data-tab="home"    class="active"><span class="ic">🍽️</span>Recipes</button>
+  <button data-tab="home"    class="active"><span class="ic">🍽️</span>This Week</button>
   <button data-tab="grocery"><span class="ic">🛒</span>Groceries</button>
 </nav>
 
@@ -78,7 +89,7 @@ html = f"""<!doctype html>
   </div>
 </section>
 
-<script>const RECIPES = {data_js};</script>
+<script>const APP_DATA = {data_js};</script>
 <script src="app.js"></script>
 </body>
 </html>
@@ -87,4 +98,5 @@ html = f"""<!doctype html>
 with open(OUT, "w", encoding="utf-8") as f:
     f.write(html)
 
-print(f"Wrote {OUT} with {len(recipes)} recipes embedded.")
+print(f"Wrote {OUT}: {len(recipes)} recipes, {len(menu)} menu entries"
+      f"{f', week of {week}' if week else ' (pool only — no app_data.json)'}.")

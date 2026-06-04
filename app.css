@@ -80,6 +80,9 @@ main { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 }
 .card .noimg { display: flex; align-items: center; justify-content: center; font-size: 28px; }
 .card .meta { min-width: 0; }
+.card .meta .mealtag { color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .6px; margin-bottom: 3px; }
+.card .meta .newbadge { color: var(--accent); }
 .card .meta .name { font-size: 17px; font-weight: 650; line-height: 1.25; }
 .card .meta .tags { color: var(--muted); font-size: 13px; margin-top: 4px;
   display: flex; gap: 8px; flex-wrap: wrap; }
