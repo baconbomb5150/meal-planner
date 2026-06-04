@@ -12,11 +12,22 @@ consolidated grocery list). If that's missing it falls back to recipes_full.json
 or hosted statically (e.g. GitHub Pages) with no server or API.
 """
 
+import hashlib
 import json
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "index.html")
+
+
+def _ver(name):
+    """Short content hash, appended to asset URLs so browsers never serve a
+    stale app.js/app.css after a deploy (cache-busting)."""
+    p = os.path.join(HERE, name)
+    if not os.path.exists(p):
+        return "1"
+    with open(p, "rb") as fh:
+        return hashlib.md5(fh.read()).hexdigest()[:8]
 
 app_data_path = os.path.join(HERE, "app_data.json")
 if os.path.exists(app_data_path):
@@ -34,6 +45,8 @@ subtitle = f"Week of {week}" if menu else f"{len(recipes)} recipes"
 
 # Compact JSON, safely escaped for inlining inside a <script> tag.
 data_js = json.dumps(app_data, ensure_ascii=False).replace("</", "<\\/")
+css_v = _ver("app.css")
+js_v = _ver("app.js")
 
 html = f"""<!doctype html>
 <html lang="en">
@@ -45,7 +58,7 @@ html = f"""<!doctype html>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>Meal Planner</title>
-<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="app.css?v={css_v}">
 </head>
 <body>
 
@@ -90,7 +103,7 @@ html = f"""<!doctype html>
 </section>
 
 <script>const APP_DATA = {data_js};</script>
-<script src="app.js"></script>
+<script src="app.js?v={js_v}"></script>
 </body>
 </html>
 """
