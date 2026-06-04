@@ -322,7 +322,7 @@ function renderGrocery() {
    Lightweight shared-passphrase screen. The repo is public, so only the
    SHA-256 HASH of the passphrase lives here — never the passphrase itself.
    Client-side only: keeps casual visitors out, not a determined attacker. */
-const PASS_HASH = '444a5ce33d8698bbb3f672c603e63065660229d3d40bb487f86bb87fed419b71';
+const PASS_HASH = 'fc939fae5c3459c79f267b082eb83a53097c637243311e422479fba019842ec2';
 
 async function sha256hex(s) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
