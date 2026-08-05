@@ -353,13 +353,13 @@
       "image": ""
     },
     {
-      "name": "Turkey & Swiss Sandwiches",
+      "name": "Turkey & Cheddar Sandwich",
       "cuisine": "American",
       "protein": "poultry",
       "meal_type": "lunch",
       "effort": "quick",
       "url": "",
-      "ingredients": "6 slices bread; 12 oz sliced deli turkey; 6 slices Swiss cheese; lettuce leaves; 1 tomato, sliced; mayonnaise and mustard to taste",
+      "ingredients": "6 slices bread; 9 oz sliced deli turkey; 6 slices cheddar cheese; lettuce; tomato; mayo or mustard",
       "instructions": "1. Spread mayonnaise and/or mustard on the bread.\n2. Layer turkey, Swiss, lettuce and tomato on 3 slices.\n3. Top with the remaining bread, halve, and serve.",
       "notes": "deli meat, cheese, bread, greens",
       "added": "2026-06-03",
@@ -457,13 +457,13 @@
       "image": ""
     },
     {
-      "name": "Ham & Swiss Melt",
+      "name": "Ham & Cheddar Melt",
       "cuisine": "American",
       "protein": "pork",
       "meal_type": "lunch",
       "effort": "quick",
       "url": "",
-      "ingredients": "6 slices bread; 9 oz sliced deli ham; 6 slices Swiss cheese; 2 tbsp Dijon mustard; 2 tbsp butter, softened",
+      "ingredients": "6 slices bread; 9 oz sliced deli ham; 6 slices cheddar cheese; 2 tbsp Dijon mustard; 2 tbsp butter, softened",
       "instructions": "1. Spread Dijon on 3 slices of bread.\n2. Layer ham and Swiss, top with the remaining bread.\n3. Butter the outsides and grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve.",
       "notes": "grilled ham & Swiss melt",
       "added": "2026-06-03",
@@ -689,6 +689,58 @@
       "notes": "Garden zucchini + tomatoes + basil are the stars; uses a Dutch oven",
       "added": "2026-08-05",
       "image": "https://www.skinnytaste.com/wp-content/uploads/2020/03/Ratatouille-Baked-Chicken-5.jpg"
+    },
+    {
+      "name": "Blackstone Breakfast Burritos",
+      "cuisine": "American",
+      "protein": "pork",
+      "meal_type": "breakfast",
+      "effort": "medium",
+      "url": "https://grillonadime.com/blackstone-breakfast-burritos/",
+      "ingredients": "6 oz breakfast sausage; 5 large eggs; 3/4 cup diced hash brown potatoes; 3 tbsp milk; 1/3 cup shredded cheddar cheese; 3 burrito-size flour tortillas; 1 tsp butter; salt and pepper to taste",
+      "instructions": "1. Preheat Blackstone to medium-high heat, about 400F.\n2. Melt butter and spread evenly across the surface.\n3. Spread 3/4 cup diced hash brown potatoes on one side; cook 10-15 minutes, turning frequently, until tender and golden.\n4. Place 6 oz sausage on the opposite side; break apart and brown thoroughly.\n5. Push hash browns and sausage to the side.\n6. Whisk 5 eggs with 3 tbsp milk; pour onto the griddle, season with salt and pepper, and scramble until nearly done.\n7. Mix scrambled eggs together with the potatoes and sausage.\n8. Fill each of 3 tortillas with the mixture and top with cheddar cheese; roll burrito-style.\n9. Place burritos seam-side down on the griddle; cook 2-3 minutes until golden brown.\n10. Serve warm.",
+      "notes": "100% Blackstone; everything cooks at once on the flat top",
+      "added": "2026-08-05",
+      "image": "https://grillonadime.com/wp-content/uploads/2024/12/Chorizo-Breakfast-Burrito-Blackstone-low-res-18-1.jpg"
+    },
+    {
+      "name": "Blackstone French Toast",
+      "cuisine": "American",
+      "protein": "eggs",
+      "meal_type": "breakfast",
+      "effort": "quick",
+      "url": "https://gimmesomegrilling.com/blackstone-french-toast/",
+      "ingredients": "6 slices thick-cut bread (Texas Toast); 3 eggs; 1/2 cup whole milk; 3/4 tbsp granulated sugar; 1.5 tsp vanilla extract; 1 tsp ground cinnamon; butter for griddle; maple syrup for serving; fresh berries for serving (optional)",
+      "instructions": "1. Preheat Blackstone to medium heat, about 350F.\n2. Whisk together 3 eggs, 1/2 cup milk, 3/4 tbsp sugar, 1.5 tsp vanilla, and 1 tsp cinnamon in a shallow dish until well combined.\n3. Melt butter on the griddle and spread across the surface.\n4. Dip each bread slice into the egg mixture, coating both sides, then place on the griddle.\n5. Cook until golden brown on the bottom, about 2 minutes; flip and cook the other side until golden, about 2 more minutes.\n6. Serve immediately with maple syrup and fresh berries.",
+      "notes": "Blackstone fits all 6 slices at once; Texas Toast recommended for best texture",
+      "added": "2026-08-05",
+      "image": "https://gimmesomegrilling.com/wp-content/uploads/2023/04/French-Toast-on-Blackstone-Griddle-Square-750x750.jpg"
+    },
+    {
+      "name": "Blackstone Patty Melt",
+      "cuisine": "American",
+      "protein": "beef",
+      "meal_type": "lunch",
+      "effort": "quick",
+      "url": "https://grillonadime.com/blackstone-patty-melt/",
+      "ingredients": "1.1 lbs ground beef; 6 slices sourdough bread; 1.5 white onions, sliced; 6 slices American cheese; 6 tbsp butter; salt, pepper, garlic powder to taste",
+      "instructions": "1. Preheat Blackstone to medium-high heat, about 450F. Divide 1.1 lbs ground beef into 6 equal balls (~3 oz each).\n2. Melt 2 tbsp butter on the griddle; add sliced onions and saute until caramelized, about 3-5 minutes.\n3. Push onions aside. Place beef balls on the hot griddle, cover with parchment, and smash into thin patties. Season with salt, pepper, and garlic powder.\n4. Cook 2-3 minutes until browned and crispy; flip and cook other side 2-3 minutes.\n5. Place 1 slice Swiss cheese on each patty and let melt.\n6. Butter one side of each bread slice with remaining butter; toast butter-side down on the griddle until golden.\n7. Assemble each sandwich: bread (toasted side down), patty, caramelized onions, second patty, more onions, bread (toasted side up). Cut in half and serve.",
+      "notes": "Diner-style smash melt; caramelized onions are the key — don't rush them",
+      "added": "2026-08-05",
+      "image": "https://grillonadime.com/wp-content/uploads/2024/08/grill-freddys-blackstone-patty-melt-7-683x1024-2.jpg"
+    },
+    {
+      "name": "Blackstone Philly Cheesesteak",
+      "cuisine": "American",
+      "protein": "beef",
+      "meal_type": "lunch",
+      "effort": "quick",
+      "url": "https://grillonadime.com/blackstone-philly-cheesesteak-recipe/",
+      "ingredients": "1.1 lbs steak, thinly sliced; 1 white onion, sliced; 6 slices provolone cheese; 3 hoagie rolls; 3/4 tbsp avocado oil; 3/4 tbsp butter; 1.5 tbsp mayonnaise; 1/2 tsp garlic powder; salt and pepper to taste",
+      "instructions": "1. Preheat Blackstone to medium-high heat, about 400F.\n2. Add 3/4 tbsp avocado oil and 3/4 tbsp butter to the center of the griddle; spread to melt.\n3. Add sliced onion; saute 3-5 minutes until softened.\n4. Move onions to a cooler zone; place hoagie rolls face-down on the griddle to toast, 1-2 minutes — watch carefully.\n5. Add 1.1 lbs thinly sliced steak to the hot center; spread thin and season with garlic powder, salt, and pepper.\n6. Sear 3-5 minutes until juices flow; flip and chop into smaller pieces. Cook 2-3 more minutes until done.\n7. Divide steak into 3 equal piles; top each with sauteed onions, then 2 slices provolone. Let cheese melt 1-2 minutes.\n8. Spread 1.5 tbsp mayonnaise across toasted rolls; transfer each meat pile onto a roll.\n9. Serve immediately.",
+      "notes": "Flat-top sear-and-chop technique is what makes this a real Philly",
+      "added": "2026-08-05",
+      "image": "https://grillonadime.com/wp-content/uploads/2024/03/philly-cheesesteak-7-square.jpg"
     }
   ],
   "menu": [
@@ -721,15 +773,15 @@
     {
       "day": "Monday",
       "meal": "dinner",
-      "name": "Thai Basil Chicken (Pad Kra Pao)",
-      "image": "https://thewoksoflife.com/wp-content/uploads/2016/06/thai-basil-chicken-7.jpg",
-      "cuisine": "Asian",
-      "effort": "quick",
-      "ingredients": "3 to 4 tbsp oil; 3 Thai bird chilies or Holland chilies, thinly sliced (de-seeded if desired); 3 shallots, thinly sliced; 5 cloves garlic, sliced; 1 pound ground chicken; 2 tsp sugar (or honey); 2 tbsp soy sauce; 1 tbsp fish sauce; 1/3 cup low sodium chicken broth (or water); 1 bunch holy or Thai basil leaves; 3 eggs, fried (for serving)",
-      "instructions": "1. In a wok over high heat, add the oil, chilies, shallots and garlic, and fry for 1-2 minutes.\n2. Add the ground chicken and stir-fry for 2 minutes, breaking up the chicken into small bits.\n3. Add the sugar, soy sauce, and fish sauce. Stir-fry for another minute and deglaze the pan with the broth.\n4. Add the basil and stir-fry until wilted. Serve over rice, traditionally topped with a fried egg.",
-      "url": "https://thewoksoflife.com/thai-basil-chicken-pad-krapow/",
+      "name": "Teriyaki Chicken and Veggie Rice Bowls",
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2016/01/teriyaki_grilled_chicken_and_veggie_rice_bowls4..jpg",
+      "cuisine": "Hawaiian",
+      "effort": "medium",
+      "ingredients": "1.25 lbs boneless skinless chicken breasts; 3 tbsp olive oil, divided; ground black pepper; 1 medium zucchini, diced into half moons and quartered; 1.5 cups matchstick carrots; 2 cups small diced broccoli florets; 1.5-2 cups cooked white or brown rice; sesame seeds optional; 1/2 cup low-sodium soy sauce; 7 tbsp water, divided; 2.5 tbsp packed light brown sugar; 2.5 tbsp honey; 3 cloves garlic, minced; 3/4 tbsp minced ginger; 1 tbsp rice vinegar; 1.5 tbsp cornstarch",
+      "instructions": "1. Whisk together soy sauce, 5 tbsp water, brown sugar, honey, garlic, ginger, and rice vinegar in a small saucepan. Bring to a light boil over medium-high heat.\n2. Whisk cornstarch with remaining 2 tbsp water, then add to sauce. Reduce heat and boil 1 minute, stirring constantly. Remove from heat.\n3. Brush 1.25 lbs chicken with 1.5 tbsp olive oil and season with pepper. Preheat grill to medium-high.\n4. Grill chicken until internal temperature reaches 165F, about 4 minutes per side. Rest 5 minutes, then dice.\n5. Heat remaining 1.5 tbsp olive oil in a saute pan over medium-high. Add zucchini, 2 cups broccoli, and 1.5 cups carrots; saute 4-5 minutes until crisp-tender.\n6. Layer rice into bowls, top with chicken and vegetables. Drizzle with teriyaki sauce and sprinkle sesame seeds.",
+      "url": "https://www.cookingclassy.com/teriyaki-grilled-chicken-and-veggie-rice-bowls/",
       "source": "pool",
-      "grocery": "1.25 lbs ground chicken; 1 bunch Thai basil; 3 shallots; 3 eggs"
+      "grocery": "1.1 lbs chicken breasts; 1.75 cups broccoli florets; 1 cup jasmine rice"
     },
     {
       "day": "Tuesday",
@@ -825,15 +877,15 @@
     {
       "day": "Thursday",
       "meal": "lunch",
-      "name": "Ham & Swiss Melt",
+      "name": "Ham & Cheddar Melt",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "6 slices bread; 9 oz sliced deli ham; 6 slices Swiss cheese; 2 tbsp Dijon mustard; 2 tbsp butter, softened",
+      "ingredients": "6 slices bread; 9 oz sliced deli ham; 6 slices cheddar cheese; 2 tbsp Dijon mustard; 2 tbsp butter, softened",
       "instructions": "1. Spread Dijon on 3 slices of bread.\n2. Layer ham and Swiss, top with the remaining bread.\n3. Butter the outsides and grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve.",
       "url": "",
       "source": "pool",
-      "grocery": "6 oz sliced deli ham; 6 slices Swiss cheese; 6 slices bread"
+      "grocery": "6 oz sliced deli ham; 6 slices cheddar cheese; 6 slices bread"
     },
     {
       "day": "Thursday",
@@ -903,15 +955,15 @@
     {
       "day": "Saturday",
       "meal": "lunch",
-      "name": "Turkey & Swiss Sandwiches",
+      "name": "Turkey & Cheddar Sandwich",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "6 slices bread; 12 oz sliced deli turkey; 6 slices Swiss cheese; lettuce leaves; 1 tomato, sliced; mayonnaise and mustard to taste",
+      "ingredients": "6 slices bread; 9 oz sliced deli turkey; 6 slices cheddar cheese; lettuce; tomato; mayo or mustard",
       "instructions": "1. Spread mayonnaise and/or mustard on the bread.\n2. Layer turkey, Swiss, lettuce and tomato on 3 slices.\n3. Top with the remaining bread, halve, and serve.",
       "url": "",
       "source": "pool",
-      "grocery": "6 oz sliced deli turkey; 4 slices Swiss cheese; 6 slices bread"
+      "grocery": "6 oz sliced deli turkey; 4 slices cheddar cheese; 6 slices bread"
     },
     {
       "day": "Saturday",
