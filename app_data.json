@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05",
+  "generated": "2026-08-05",
   "recipes": [
     {
       "name": "Marry Me Chicken Casserole",
@@ -611,6 +611,84 @@
       "notes": "Teriyaki grilled chicken bowls with broccoli, zucchini, and carrots; clean pantry overlap with Hawaiian chicken",
       "added": "2026-06-05",
       "image": "https://www.cookingclassy.com/wp-content/uploads/2016/01/teriyaki_grilled_chicken_and_veggie_rice_bowls4..jpg"
+    },
+    {
+      "name": "Thai Beef Salad",
+      "cuisine": "Asian",
+      "protein": "beef",
+      "meal_type": "lunch",
+      "effort": "quick",
+      "url": "https://www.recipetineats.com/thai-beef-salad-2/",
+      "ingredients": "12 oz sirloin steak; canola oil for cooking; salt and pepper; 3 cups mixed lettuce leaves; 15 cherry tomatoes, halved; 1/4 small red onion, very finely sliced; 3/4 cup cucumber, sliced; 1/3 cup cilantro leaves; 1/3 cup mint leaves; 3/4 tsp birds eye chili, deseeded and finely minced; 1/4 tsp garlic, finely minced; 1.5 tbsp cilantro stems, finely chopped; 1 tbsp sugar; 3 tbsp fish sauce; 4.5 tbsp lime juice (about 2-3 limes); 1.5 tbsp canola oil; pinch salt",
+      "instructions": "1. Combine chili, garlic, cilantro stems, and a pinch of salt in a mortar; grind to a smooth paste.\n2. Add sugar, fish sauce, lime juice, and 1.5 tbsp canola oil; stir to combine. Adjust to taste.\n3. Heat a skillet or Blackstone to high heat until smoking.\n4. Coat 12 oz steak with a little canola oil, season with salt and pepper. Sear 2 minutes per side for medium-rare.\n5. Remove to a plate, tent loosely with foil, and rest 10 minutes.\n6. Toss 3 cups lettuce with 1 tbsp dressing; arrange on plates.\n7. Slice steak thinly against the grain. Combine in a bowl with cherry tomatoes, red onion, cucumber, cilantro, mint, and most of remaining dressing.\n8. Pile beef mixture over lettuce, drizzle with remaining dressing, and serve immediately.",
+      "notes": "Peanut-free — original garnishes with peanuts, omit entirely. Use canola oil only. Garden: lettuce, cucumber, tomatoes, herbs.",
+      "added": "2026-08-05",
+      "image": "https://www.recipetineats.com/tachyon/2015/07/Thai-Beef-Salad_2.jpg"
+    },
+    {
+      "name": "Blackstone Hibachi Chicken",
+      "cuisine": "Asian",
+      "protein": "chicken",
+      "meal_type": "dinner",
+      "effort": "medium",
+      "url": "https://theflattopking.com/blackstone-hibachi-chicken-recipe/",
+      "ingredients": "1.3 lbs boneless skinless chicken breast, cubed; 3.5 tbsp soy sauce; 1.75 tbsp minced garlic; 3/4 tsp minced ginger; 2.5 tbsp honey; 2.5 tbsp brown sugar; 3 tbsp butter, divided; 1 tbsp avocado oil; 1.75 medium zucchini, sliced into spears; 1/2 medium onion, sliced; 1 tsp garlic powder; 1-2 tbsp soy sauce (for vegetables); salt and pepper; cooked rice for serving; yum yum sauce or sriracha (optional)",
+      "instructions": "1. Whisk together 3.5 tbsp soy sauce, 1.75 tbsp minced garlic, 3/4 tsp minced ginger, 2.5 tbsp honey, and 2.5 tbsp brown sugar in a bowl; set aside as sauce.\n2. Preheat Blackstone to low-medium heat.\n3. Add 1 tbsp butter and 1 tbsp avocado oil to the hot zone; add 1.75 medium zucchini (spears) and 1/2 sliced onion with 1 tsp garlic powder, 1-2 tbsp soy sauce, salt, and pepper. Saute until tender, then push to the cooler side.\n4. Add oil to the hot zone; place 1.3 lbs cubed chicken with space between pieces. Cook untouched 2 minutes to sear.\n5. Add 2 tbsp butter; toss chicken and continue cooking until nearly done through.\n6. Pour sauce over chicken; toss continuously about 2 minutes until cooked through and sauce thickens.\n7. Plate rice, vegetables, and chicken together; serve with yum yum sauce or sriracha if desired.",
+      "notes": "100% Blackstone flat-top; garden zucchini works great here",
+      "added": "2026-08-05",
+      "image": "https://theflattopking.com/wp-content/uploads/2022/12/blackstone-hibachi-chicken-recipe.jpg"
+    },
+    {
+      "name": "Blackstone Smash Burgers",
+      "cuisine": "American",
+      "protein": "beef",
+      "meal_type": "dinner",
+      "effort": "quick",
+      "url": "https://theflattopking.com/blackstone-smash-burgers/",
+      "ingredients": "1.5 lbs 80/20 ground beef chuck; salt, pepper, garlic powder for seasoning; 6 slices American cheese; 3-4 hamburger buns; 1-2 tbsp butter (for toasting buns); garden lettuce leaves; garden tomatoes, sliced; mayonnaise, mustard, pickles to taste",
+      "instructions": "1. Preheat Blackstone to medium-high, about 425-450F.\n2. Divide 1.5 lbs beef into 6 equal balls. Keep refrigerated until ready to cook.\n3. Lightly butter bun halves and toast cut-side down on griddle until golden; set aside.\n4. Working in batches, place beef balls on hot griddle with space between each.\n5. Cover each ball with parchment paper and press firmly flat with a spatula or burger press; hold 10 seconds.\n6. Season tops with salt, pepper, and garlic powder.\n7. Cook until edges are browned and beef is about halfway done; scrape under each patty and flip.\n8. Immediately top each patty with 1 slice American cheese.\n9. Once cheese melts, stack 2 patties per burger and transfer to toasted buns.\n10. Top with garden lettuce, sliced garden tomatoes, and desired condiments. Serve immediately.",
+      "notes": "Pure Blackstone; garden lettuce and tomatoes on top",
+      "added": "2026-08-05",
+      "image": "https://theflattopking.com/wp-content/uploads/2023/01/blackstone-smash-burgers-2.jpg"
+    },
+    {
+      "name": "Blackstone Carne Asada Tacos",
+      "cuisine": "Mexican",
+      "protein": "beef",
+      "meal_type": "dinner",
+      "effort": "medium",
+      "url": "https://ifyougiveagirlagrill.com/2023/12/17/blackstone-carne-asada-tacos/",
+      "ingredients": "1.1 lbs strip steak, cubed; 3/4 bunch cilantro; 3.5 tbsp lime juice (about 2 limes); 3.5 tbsp orange juice; 2.5 tbsp olive oil; 1/2 jalapeno pepper (optional); 3 cloves garlic; 1 tsp honey; 1.5 tsp chili powder; 1.5 tsp paprika; 1.5 tsp cumin; 1/4 tsp cinnamon; salt, pepper, red pepper flakes to taste; cooking oil; 8-9 corn tortillas; cotija cheese; 2-3 garden tomatoes (for pico); 1/4 onion, diced (for pico); lime juice for pico",
+      "instructions": "1. Cut 1.1 lbs strip steak into small cubes; place in a gallon bag.\n2. Blend 3/4 bunch cilantro, 3.5 tbsp lime juice, 3.5 tbsp orange juice, 2.5 tbsp olive oil, 1/2 jalapeno, 3 cloves garlic, 1 tsp honey, 1.5 tsp chili powder, 1.5 tsp paprika, 1.5 tsp cumin, 1/4 tsp cinnamon, salt, and pepper until smooth.\n3. Add half the marinade to steak; massage bag and refrigerate at least 2 hours.\n4. Make pico de gallo: dice garden tomatoes with onion, cilantro, lime juice, and salt; set aside.\n5. Preheat Blackstone to medium; add cooking oil and marinated steak. Cook 5-6 minutes, stirring occasionally.\n6. Pour in remaining marinade during the last minute; toss well.\n7. Remove steak; scrape griddle clean. Add oil and corn tortillas; cook about 1 minute per side.\n8. Assemble tacos with carne asada, cotija cheese, cilantro, and fresh pico de gallo.",
+      "notes": "Marinate steak 2+ hours ahead; garden tomatoes + cilantro make the pico",
+      "added": "2026-08-05",
+      "image": "https://ifyougiveagirlagrill.com/wp-content/uploads/2023/12/IMG_3796.jpg"
+    },
+    {
+      "name": "Greek Chicken Souvlaki with Tzatziki",
+      "cuisine": "Italian",
+      "protein": "chicken",
+      "meal_type": "dinner",
+      "effort": "medium",
+      "url": "https://www.recipetineats.com/chicken-souvlaki-tzatziki/",
+      "ingredients": "1.3 lbs boneless skinless chicken thighs, cut into 1-inch pieces; 1.75 tbsp olive oil; 3.5 tbsp lemon juice; 3 cloves garlic, minced; 1.75 tbsp dried oregano; 1/2 tsp salt; black pepper; 1.75 garden cucumbers; 1.1 cups plain Greek yogurt; 1.75 tsp white wine vinegar; 1 tbsp lemon juice (for tzatziki); 1/2 clove garlic, minced (for tzatziki); 1 tbsp extra virgin olive oil (for tzatziki); 1/2 tsp salt (for tzatziki); 3-4 flatbreads or pita; garden lettuce for serving; sliced garden tomatoes for serving",
+      "instructions": "1. Combine 1.3 lbs chicken with 1.75 tbsp olive oil, 3.5 tbsp lemon juice, 3 cloves garlic, 1.75 tbsp oregano, 1/2 tsp salt, and pepper; marinate minimum 3 hours or overnight.\n2. For tzatziki: halve 1.75 garden cucumbers lengthwise, scrape out seeds, grate coarsely. Salt and rest 10 minutes, then squeeze dry in a clean towel.\n3. Mix squeezed cucumber with 1.1 cups Greek yogurt, 1.75 tsp white wine vinegar, 1 tbsp lemon juice, 1/2 clove garlic, 1 tbsp olive oil, and 1/2 tsp salt. Refrigerate 20+ minutes.\n4. Thread marinated chicken onto skewers.\n5. Heat Blackstone or skillet over high heat with oil; cook skewers 3 minutes per side until cooked through and browned.\n6. Serve with tzatziki, warmed pita, garden lettuce, and sliced tomatoes.",
+      "notes": "Marinate chicken 3+ hours; garden cucumbers go straight into tzatziki",
+      "added": "2026-08-05",
+      "image": "https://www.recipetineats.com/tachyon/2016/07/Chicken-Souvlaki_1-680x952.jpg"
+    },
+    {
+      "name": "Ratatouille Baked Chicken",
+      "cuisine": "Italian",
+      "protein": "chicken",
+      "meal_type": "dinner",
+      "effort": "involved",
+      "url": "https://www.skinnytaste.com/ratatouille-baked-chicken/",
+      "ingredients": "7 bone-in chicken thighs, skin removed; 1.75 tbsp extra-virgin olive oil; salt and freshly ground black pepper; 1 small yellow onion, roughly chopped; 4 cloves garlic, minced; 1 medium eggplant, peeled and cut into 1-inch cubes; 1 tbsp tomato paste; 1 tbsp fresh thyme, finely chopped; 2 medium zucchini, cut into 1/2-inch dice; 1 yellow bell pepper, cut into 1/2-inch squares; 4-5 vine-ripened garden tomatoes, cut into 1/2-inch dice; 3/4 cup fresh basil leaves, finely chopped",
+      "instructions": "1. Preheat oven to 400F.\n2. Heat Dutch oven over medium-high; add 1/2 tbsp olive oil until shimmering.\n3. Pat 7 chicken thighs dry, season with salt and pepper, and place in pan. Cook 5 minutes until browned.\n4. Flip chicken and cook 3 more minutes until second side begins browning. Remove to a plate.\n5. Reduce heat to medium; add remaining 1.25 tbsp olive oil, onion, 4 cloves garlic, and a pinch of salt. Cook 3 minutes until softened.\n6. Add cubed eggplant with salt; cook 5 minutes, stirring occasionally, until softened.\n7. Stir in 1 tbsp tomato paste and 1 tbsp fresh thyme; cook 1 minute, stirring constantly.\n8. Add diced zucchini, bell pepper, and 4-5 diced garden tomatoes with salt and pepper. Cook 10 minutes until vegetables are tender.\n9. Remove from heat; partially submerge chicken thighs into the vegetables.\n10. Transfer to oven and bake uncovered until internal temperature reaches 160F, about 20 minutes.\n11. Remove from oven and let stand 10 minutes. Stir in 3/4 cup fresh basil and serve.",
+      "notes": "Garden zucchini + tomatoes + basil are the stars; uses a Dutch oven",
+      "added": "2026-08-05",
+      "image": "https://www.skinnytaste.com/wp-content/uploads/2020/03/Ratatouille-Baked-Chicken-5.jpg"
     }
   ],
   "menu": [
@@ -625,20 +703,20 @@
       "instructions": "1. Whisk the eggs with milk, salt and pepper.\n2. Melt butter in a nonstick skillet over medium-low heat.\n3. Pour in the eggs and gently stir with a spatula until softly set, 2-3 minutes.\n4. Meanwhile toast and butter the bread.\n5. Serve the eggs immediately with toast.",
       "url": "",
       "source": "pool",
-      "grocery": "6 large eggs; 6 slices bread"
+      "grocery": "6 eggs; 6 slices bread"
     },
     {
       "day": "Monday",
       "meal": "lunch",
-      "name": "Turkey & Swiss Sandwiches",
+      "name": "Tuna Melt",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "6 slices bread; 12 oz sliced deli turkey; 6 slices Swiss cheese; lettuce leaves; 1 tomato, sliced; mayonnaise and mustard to taste",
-      "instructions": "1. Spread mayonnaise and/or mustard on the bread.\n2. Layer turkey, Swiss, lettuce and tomato on 3 slices.\n3. Top with the remaining bread, halve, and serve.",
+      "ingredients": "2 (5 oz) cans tuna, drained; 1/3 cup mayonnaise; 1 stalk celery, finely diced; 2 tbsp red onion, minced; 1 tsp lemon juice; salt and pepper; 6 slices bread; 6 slices cheddar or Swiss cheese; 2 tbsp butter (for grilling)",
+      "instructions": "1. Mix tuna, mayo, celery, red onion, lemon juice, salt and pepper.\n2. Spread tuna salad on 3 slices of bread; top each with cheese and a second slice.\n3. Butter the outsides and grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve warm.",
       "url": "",
       "source": "pool",
-      "grocery": "12 oz sliced deli turkey; 6 slices Swiss cheese; 1 tomato; lettuce; mayonnaise; 6 slices bread"
+      "grocery": "2 cans tuna (5 oz each); 6 slices bread; 6 slices cheddar cheese; 1 stalk celery"
     },
     {
       "day": "Monday",
@@ -651,7 +729,7 @@
       "instructions": "1. In a wok over high heat, add the oil, chilies, shallots and garlic, and fry for 1-2 minutes.\n2. Add the ground chicken and stir-fry for 2 minutes, breaking up the chicken into small bits.\n3. Add the sugar, soy sauce, and fish sauce. Stir-fry for another minute and deglaze the pan with the broth.\n4. Add the basil and stir-fry until wilted. Serve over rice, traditionally topped with a fried egg.",
       "url": "https://thewoksoflife.com/thai-basil-chicken-pad-krapow/",
       "source": "pool",
-      "grocery": "14 oz ground chicken; 2 shallots; 3 Thai bird or Holland chilies; 1 bunch Thai or holy basil; fish sauce; 3 eggs; jasmine rice"
+      "grocery": "1.25 lbs ground chicken; 1 bunch Thai basil; 3 shallots; 3 eggs"
     },
     {
       "day": "Tuesday",
@@ -664,7 +742,7 @@
       "instructions": "1. Spoon 1 cup yogurt into each of 3 bowls.\n2. Top each with 1/2 cup berries and 1/4 cup granola.\n3. Drizzle with honey if desired and serve.",
       "url": "",
       "source": "pool",
-      "grocery": "3 cups Greek yogurt; 1.5 cups mixed berries; 3/4 cup granola; honey"
+      "grocery": "24 oz Greek yogurt; 1.5 cups mixed berries; 3/4 cup granola"
     },
     {
       "day": "Tuesday",
@@ -682,15 +760,15 @@
     {
       "day": "Tuesday",
       "meal": "dinner",
-      "name": "Sheet Pan Pesto Chicken with Asparagus and Tomatoes",
-      "image": "https://www.cookingclassy.com/wp-content/uploads/2017/02/sheet-pan-pesto-chicken-veggies-walnuts-4-1.jpg",
-      "cuisine": "American",
+      "name": "Blackstone Hibachi Chicken",
+      "image": "https://theflattopking.com/wp-content/uploads/2022/12/blackstone-hibachi-chicken-recipe.jpg",
+      "cuisine": "Asian",
       "effort": "medium",
-      "ingredients": "1.25 lbs boneless skinless chicken breasts, diced into 1-inch pieces; 14 oz asparagus, trimmed and cut into 1.5-inch pieces; 1.75 cups grape tomatoes; 1.25 cups packed fresh basil leaves; 3 tbsp walnuts (for pesto) plus 3 tbsp walnuts (topping); 3 tbsp finely shredded parmesan; 2 cloves garlic; 7 tbsp olive oil; salt and pepper",
-      "instructions": "1. Preheat oven to 400F. Line a baking sheet with parchment or coat with spray.\n2. In a food processor, pulse 1.25 cups basil, 3 tbsp walnuts, 3 tbsp parmesan, and 2 garlic cloves until coarsely chopped.\n3. Add 7 tbsp olive oil and pulse until finely chopped. Season with salt and pepper to make the pesto.\n4. Place 1.25 lbs chicken and 14 oz asparagus on the sheet pan. Toss with 1/4 cup of the pesto and season with salt and pepper.\n5. Spread evenly and roast for 10 minutes.\n6. Remove from oven, drain any excess liquid. Add 1.75 cups grape tomatoes and toss everything together.\n7. Roast another 8-12 minutes until chicken reaches 165F internally.\n8. Remove from oven, top with remaining 3 tbsp walnuts and reserved pesto. Serve immediately.",
-      "url": "https://www.cookingclassy.com/sheet-pan-pesto-chicken-asparagus-tomatoes-walnuts/",
+      "ingredients": "1.3 lbs boneless skinless chicken breast, cubed; 3.5 tbsp soy sauce; 1.75 tbsp minced garlic; 3/4 tsp minced ginger; 2.5 tbsp honey; 2.5 tbsp brown sugar; 3 tbsp butter, divided; 1 tbsp avocado oil; 1.75 medium zucchini, sliced into spears; 1/2 medium onion, sliced; 1 tsp garlic powder; 1-2 tbsp soy sauce (for vegetables); salt and pepper; cooked rice for serving; yum yum sauce or sriracha (optional)",
+      "instructions": "1. Whisk together 3.5 tbsp soy sauce, 1.75 tbsp minced garlic, 3/4 tsp minced ginger, 2.5 tbsp honey, and 2.5 tbsp brown sugar in a bowl; set aside as sauce.\n2. Preheat Blackstone to low-medium heat.\n3. Add 1 tbsp butter and 1 tbsp avocado oil to the hot zone; add 1.75 medium zucchini (spears) and 1/2 sliced onion with 1 tsp garlic powder, 1-2 tbsp soy sauce, salt, and pepper. Saute until tender, then push to the cooler side.\n4. Add oil to the hot zone; place 1.3 lbs cubed chicken with space between pieces. Cook untouched 2 minutes to sear.\n5. Add 2 tbsp butter; toss chicken and continue cooking until nearly done through.\n6. Pour sauce over chicken; toss continuously about 2 minutes until cooked through and sauce thickens.\n7. Plate rice, vegetables, and chicken together; serve with yum yum sauce or sriracha if desired.",
+      "url": "https://theflattopking.com/blackstone-hibachi-chicken-recipe/",
       "source": "new",
-      "grocery": "1.25 lbs chicken breasts; 14 oz asparagus; 1.75 cups grape tomatoes; 3 tbsp walnuts; 1.25 cups fresh basil; 3 tbsp grated parmesan"
+      "grocery": "1.3 lbs chicken breasts; 1 onion; 2 cups jasmine rice"
     },
     {
       "day": "Wednesday",
@@ -703,75 +781,36 @@
       "instructions": "1. Combine oats, milk, yogurt, chia seeds and sweetener in a jar or container.\n2. Stir well, cover, and refrigerate overnight (at least 4 hours).\n3. In the morning, stir, divide into 3 portions, and top with fruit.",
       "url": "",
       "source": "pool",
-      "grocery": "1.5 cups rolled oats; 1.5 cups milk; 3 tbsp chia seeds; fruit for topping"
+      "grocery": "1.5 cups rolled oats; 1.5 cups milk; 2 bananas"
     },
     {
       "day": "Wednesday",
       "meal": "lunch",
-      "name": "Tuna Melt",
-      "image": "",
-      "cuisine": "American",
+      "name": "Thai Beef Salad",
+      "image": "https://www.recipetineats.com/tachyon/2015/07/Thai-Beef-Salad_2.jpg",
+      "cuisine": "Asian",
       "effort": "quick",
-      "ingredients": "2 (5 oz) cans tuna, drained; 1/3 cup mayonnaise; 1 stalk celery, finely diced; 2 tbsp red onion, minced; 1 tsp lemon juice; salt and pepper; 6 slices bread; 6 slices cheddar or Swiss cheese; 2 tbsp butter (for grilling)",
-      "instructions": "1. Mix tuna, mayo, celery, red onion, lemon juice, salt and pepper.\n2. Spread tuna salad on 3 slices of bread; top each with cheese and a second slice.\n3. Butter the outsides and grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve warm.",
-      "url": "",
-      "source": "pool",
-      "grocery": "2 (5 oz) cans tuna; 6 slices bread; 6 slices cheddar cheese; 1 stalk celery; red onion; mayonnaise; 1 lemon"
-    },
-    {
-      "day": "Wednesday",
-      "meal": "dinner",
-      "name": "Lemon Butter Chicken Breasts",
-      "image": "https://www.cookingclassy.com/wp-content/uploads/2018/07/lemon-butter-chicken-18.jpg",
-      "cuisine": "American",
-      "effort": "quick",
-      "ingredients": "4 (5 oz) chicken breasts, pounded to 1/3-inch thickness; salt and freshly ground black pepper; 1/3 cup all-purpose flour; 1 tablespoon olive oil; 4 tablespoons unsalted butter, divided into 1 tablespoon pieces; 1 1/2 teaspoons minced garlic; 1/2 cup low-sodium chicken broth; 3 tablespoons fresh lemon juice; 1/2 teaspoon fresh lemon zest; 1 1/2 tablespoons minced fresh parsley (optional)",
-      "instructions": "1. Season both sides of the chicken with salt and pepper.\n2. Place the flour in a shallow dish and dredge both sides of the chicken breasts.\n3. Heat a 12-inch skillet over medium-high heat.\n4. Add the olive oil and 1 tablespoon butter; once melted, add the chicken in a single layer.\n5. Sear until golden brown on the bottom, about 4-5 minutes, then flip and cook until the chicken reaches 165F internally, about 4-5 minutes longer.\n6. Transfer the chicken to a plate, leaving excess oil in the pan.\n7. Reduce heat to medium, add the garlic, and saute about 20 seconds until lightly golden.\n8. Pour in the chicken broth while scraping up the browned bits from the pan bottom.\n9. Add the lemon juice and bring to a simmer; reduce heat slightly and simmer until the liquid reduces by half, about 2 minutes.\n10. Stir in the remaining 3 tablespoons butter and the lemon zest until the butter melts.\n11. Return the chicken to the skillet, spoon the sauce over it, and garnish with parsley. Serve warm.",
-      "url": "https://www.cookingclassy.com/lemon-butter-chicken/",
-      "source": "pool",
-      "grocery": "1.1 lbs chicken breasts; 2 lemons; 1/3 cup low-sodium chicken broth; fresh parsley"
-    },
-    {
-      "day": "Thursday",
-      "meal": "breakfast",
-      "name": "Avocado Toast with Fried Egg",
-      "image": "",
-      "cuisine": "American",
-      "effort": "quick",
-      "ingredients": "6 slices hearty bread; 2 ripe avocados; 6 large eggs; 1 tbsp oil or butter; salt, pepper, and red pepper flakes to taste; 1/2 lemon (optional)",
-      "instructions": "1. Toast the bread.\n2. Mash the avocado with a squeeze of lemon, salt and pepper; spread on the toast.\n3. Fry the eggs in oil or butter to desired doneness.\n4. Top each toast with a fried egg, season with salt, pepper and red pepper flakes, and serve.",
-      "url": "",
-      "source": "pool",
-      "grocery": "2 ripe avocados; 6 slices bread; 6 large eggs"
-    },
-    {
-      "day": "Thursday",
-      "meal": "lunch",
-      "name": "Hummus & Veggie Wrap",
-      "image": "",
-      "cuisine": "Mediterranean",
-      "effort": "quick",
-      "ingredients": "3 large flour tortillas or wraps; 3/4 cup hummus; 1 cucumber, sliced; 1 bell pepper, sliced; 1 cup shredded carrot; 1 1/2 cups baby spinach or greens; feta cheese (optional)",
-      "instructions": "1. Spread 1/4 cup hummus over each wrap.\n2. Layer cucumber, bell pepper, carrot and greens down the center; add feta if using.\n3. Roll up tightly, halve, and serve.",
-      "url": "",
-      "source": "pool",
-      "grocery": "3 large flour tortillas; 3/4 cup hummus; 1 cucumber; 1 bell pepper; 1.5 cups baby spinach"
-    },
-    {
-      "day": "Thursday",
-      "meal": "dinner",
-      "name": "Hamburger Green Bean Casserole",
-      "image": "https://wholelottayum.com/wp-content/uploads/2020/08/green-bean-beef-casserole-3.jpg",
-      "cuisine": "American",
-      "effort": "medium",
-      "ingredients": "3/4 lb lean ground beef; 1.25 cups green beans, trimmed; 1/2 cup diced onion; 1/2 cup mushrooms, sliced; 1.5 tsp minced garlic; 2 tbsp beef or chicken broth; 3 tbsp sour cream; 1 tbsp cream cheese; 1/3 tsp sea salt; 1/3 tsp ground black pepper; 1/2 tsp Worcestershire sauce; 1/8 tsp dried thyme; 1.25 cups shredded Colby Jack cheese",
-      "instructions": "1. Brown 3/4 lb ground beef in a cast-iron skillet over medium heat, about 5 minutes. Drain excess grease, reserving about 1 tbsp in the pan.\n2. Add 1/2 cup diced onions; saute until beginning to soften, about 3 minutes.\n3. Add 1/2 cup sliced mushrooms and cook 2 more minutes.\n4. Add 1.25 cups green beans, 1.5 tsp garlic, and 2 tbsp broth. Cook 2-3 minutes until vegetables begin to soften.\n5. Reduce heat to medium-low. Stir in 1 tbsp cream cheese until melted, then stir in 3 tbsp sour cream.\n6. Return the beef to the pan. Season with salt, pepper, thyme, and Worcestershire. Stir gently to combine.\n7. Top with 1.25 cups shredded Colby Jack.\n8. Broil 2 minutes until cheese melts and browns, or cover on stovetop over low heat 3-4 minutes. Serve from the skillet.",
-      "url": "https://wholelottayum.com/hamburger-green-bean-casserole/",
+      "ingredients": "12 oz sirloin steak; canola oil for cooking; salt and pepper; 3 cups mixed lettuce leaves; 15 cherry tomatoes, halved; 1/4 small red onion, very finely sliced; 3/4 cup cucumber, sliced; 1/3 cup cilantro leaves; 1/3 cup mint leaves; 3/4 tsp birds eye chili, deseeded and finely minced; 1/4 tsp garlic, finely minced; 1.5 tbsp cilantro stems, finely chopped; 1 tbsp sugar; 3 tbsp fish sauce; 4.5 tbsp lime juice (about 2-3 limes); 1.5 tbsp canola oil; pinch salt",
+      "instructions": "1. Combine chili, garlic, cilantro stems, and a pinch of salt in a mortar; grind to a smooth paste.\n2. Add sugar, fish sauce, lime juice, and 1.5 tbsp canola oil; stir to combine. Adjust to taste.\n3. Heat a skillet or Blackstone to high heat until smoking.\n4. Coat 12 oz steak with a little canola oil, season with salt and pepper. Sear 2 minutes per side for medium-rare.\n5. Remove to a plate, tent loosely with foil, and rest 10 minutes.\n6. Toss 3 cups lettuce with 1 tbsp dressing; arrange on plates.\n7. Slice steak thinly against the grain. Combine in a bowl with cherry tomatoes, red onion, cucumber, cilantro, mint, and most of remaining dressing.\n8. Pile beef mixture over lettuce, drizzle with remaining dressing, and serve immediately.",
+      "url": "https://www.recipetineats.com/thai-beef-salad-2/",
       "source": "new",
-      "grocery": "3/4 lb lean ground beef; 1.25 cups fresh green beans; 1/2 cup sliced mushrooms; 3 tbsp sour cream; 1 tbsp cream cheese; 1.25 cups shredded Colby Jack cheese; Worcestershire sauce"
+      "grocery": "12 oz sirloin steak; 1 pint cherry tomatoes; 2 limes; 1/4 red onion; 1 bunch mint"
     },
     {
-      "day": "Friday",
+      "day": "Wednesday",
+      "meal": "dinner",
+      "name": "Hamburger Steak with Onion Gravy",
+      "image": "https://www.restlesschipotle.com/wp-content/uploads/2022/03/hamburger-steak-feat.jpg",
+      "cuisine": "American",
+      "effort": "quick",
+      "ingredients": "2 lb lean ground beef; 1 egg; 1/4 cup Worcestershire sauce; 1/3 cup breadcrumbs; 1/3 cup milk; 1 tsp seasoned salt; 1 tsp onion powder; 2 tsp garlic powder; 1 onion, sliced; 1/4 cup butter; 1/3 cup all-purpose flour; 2 cups beef broth",
+      "instructions": "1. Combine all patty ingredients (ground beef, egg, Worcestershire, breadcrumbs, milk, seasoned salt, onion powder, garlic powder) in a bowl and mix thoroughly by hand.\n2. Form the mixture into 6 patties.\n3. Spray a heavy skillet with nonstick cooking spray.\n4. Brown each patty over medium-high heat for about 3 minutes per side.\n5. Remove the patties and set aside.\n6. Add the sliced onions to the same pan, with extra oil if needed.\n7. Saute until the onions begin to brown.\n8. Add the butter and let it melt.\n9. Whisk in the flour until no longer visible.\n10. Cook while whisking constantly for 1 minute.\n11. Whisk in the beef broth until no lumps remain.\n12. Bring to a simmer, whisking until thickened.\n13. Taste and adjust seasoning as needed.\n14. Return the beef patties to the gravy.\n15. Set heat to medium-low, cover, and simmer 20-30 minutes until the patties reach 160F internally.\n16. Remove from heat, cover, and let stand 5-10 minutes before serving.",
+      "url": "https://www.restlesschipotle.com/hamburger-steak/",
+      "source": "pool",
+      "grocery": "1.25 lbs lean ground beef; 1 onion; 1 egg; 14 oz beef broth"
+    },
+    {
+      "day": "Thursday",
       "meal": "breakfast",
       "name": "Scrambled Eggs & Toast",
       "image": "",
@@ -781,33 +820,72 @@
       "instructions": "1. Whisk the eggs with milk, salt and pepper.\n2. Melt butter in a nonstick skillet over medium-low heat.\n3. Pour in the eggs and gently stir with a spatula until softly set, 2-3 minutes.\n4. Meanwhile toast and butter the bread.\n5. Serve the eggs immediately with toast.",
       "url": "",
       "source": "pool",
-      "grocery": "6 large eggs; 6 slices bread"
+      "grocery": "6 eggs; 6 slices bread"
+    },
+    {
+      "day": "Thursday",
+      "meal": "lunch",
+      "name": "Ham & Swiss Melt",
+      "image": "",
+      "cuisine": "American",
+      "effort": "quick",
+      "ingredients": "6 slices bread; 9 oz sliced deli ham; 6 slices Swiss cheese; 2 tbsp Dijon mustard; 2 tbsp butter, softened",
+      "instructions": "1. Spread Dijon on 3 slices of bread.\n2. Layer ham and Swiss, top with the remaining bread.\n3. Butter the outsides and grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve.",
+      "url": "",
+      "source": "pool",
+      "grocery": "6 oz sliced deli ham; 6 slices Swiss cheese; 6 slices bread"
+    },
+    {
+      "day": "Thursday",
+      "meal": "dinner",
+      "name": "Greek Chicken Souvlaki with Tzatziki",
+      "image": "https://www.recipetineats.com/tachyon/2016/07/Chicken-Souvlaki_1-680x952.jpg",
+      "cuisine": "Italian",
+      "effort": "medium",
+      "ingredients": "1.3 lbs boneless skinless chicken thighs, cut into 1-inch pieces; 1.75 tbsp olive oil; 3.5 tbsp lemon juice; 3 cloves garlic, minced; 1.75 tbsp dried oregano; 1/2 tsp salt; black pepper; 1.75 garden cucumbers; 1.1 cups plain Greek yogurt; 1.75 tsp white wine vinegar; 1 tbsp lemon juice (for tzatziki); 1/2 clove garlic, minced (for tzatziki); 1 tbsp extra virgin olive oil (for tzatziki); 1/2 tsp salt (for tzatziki); 3-4 flatbreads or pita; garden lettuce for serving; sliced garden tomatoes for serving",
+      "instructions": "1. Combine 1.3 lbs chicken with 1.75 tbsp olive oil, 3.5 tbsp lemon juice, 3 cloves garlic, 1.75 tbsp oregano, 1/2 tsp salt, and pepper; marinate minimum 3 hours or overnight.\n2. For tzatziki: halve 1.75 garden cucumbers lengthwise, scrape out seeds, grate coarsely. Salt and rest 10 minutes, then squeeze dry in a clean towel.\n3. Mix squeezed cucumber with 1.1 cups Greek yogurt, 1.75 tsp white wine vinegar, 1 tbsp lemon juice, 1/2 clove garlic, 1 tbsp olive oil, and 1/2 tsp salt. Refrigerate 20+ minutes.\n4. Thread marinated chicken onto skewers.\n5. Heat Blackstone or skillet over high heat with oil; cook skewers 3 minutes per side until cooked through and browned.\n6. Serve with tzatziki, warmed pita, garden lettuce, and sliced tomatoes.",
+      "url": "https://www.recipetineats.com/chicken-souvlaki-tzatziki/",
+      "source": "new",
+      "grocery": "1.3 lbs chicken thighs; 9 oz Greek yogurt; 4 pita breads; 2 lemons"
+    },
+    {
+      "day": "Friday",
+      "meal": "breakfast",
+      "name": "Avocado Toast with Fried Egg",
+      "image": "",
+      "cuisine": "American",
+      "effort": "quick",
+      "ingredients": "6 slices hearty bread; 2 ripe avocados; 6 large eggs; 1 tbsp oil or butter; salt, pepper, and red pepper flakes to taste; 1/2 lemon (optional)",
+      "instructions": "1. Toast the bread.\n2. Mash the avocado with a squeeze of lemon, salt and pepper; spread on the toast.\n3. Fry the eggs in oil or butter to desired doneness.\n4. Top each toast with a fried egg, season with salt, pepper and red pepper flakes, and serve.",
+      "url": "",
+      "source": "pool",
+      "grocery": "3 avocados; 3 eggs; 6 slices bread"
     },
     {
       "day": "Friday",
       "meal": "lunch",
-      "name": "Dinner Leftovers",
+      "name": "Grilled Cheese & Tomato Soup",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "",
-      "instructions": "1. Reheat the prior night's dinner portion in the microwave or on the stovetop until hot.\n2. Refresh with a squeeze of lemon, fresh herbs, or a small side salad if desired.",
+      "ingredients": "6 slices bread; 6 slices cheddar cheese (or 1 1/2 cups shredded); 3 tbsp butter, softened; 1 (24 oz) carton tomato soup",
+      "instructions": "1. Heat the tomato soup in a saucepan over medium until hot.\n2. Butter the outsides of the bread and assemble with cheese in the middle.\n3. Grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve with bowls of warm tomato soup.",
       "url": "",
       "source": "pool",
-      "grocery": ""
+      "grocery": "6 slices bread; 6 slices cheddar cheese; 24 oz tomato soup"
     },
     {
       "day": "Friday",
       "meal": "dinner",
-      "name": "Beef and Broccoli Stir-Fry",
-      "image": "https://www.recipetineats.com/tachyon/2015/03/Chinese-Beef-and-Broccoli_3.jpg",
-      "cuisine": "Asian",
+      "name": "Blackstone Smash Burgers",
+      "image": "https://theflattopking.com/wp-content/uploads/2023/01/blackstone-smash-burgers-2.jpg",
+      "cuisine": "American",
       "effort": "quick",
-      "ingredients": "2 tbsp cornstarch/cornflour; 1/4 cup water (for sauce); 1 tsp sugar; 1 tbsp dark soy sauce; 1 1/2 tbsp light soy sauce; 1 tbsp Chinese cooking wine (Shaoxing wine); 1/8 tsp Chinese five spice powder; 1 tsp sesame oil (optional); 1/8 tsp black pepper; 2 tbsp oil; 12 oz (360g) beef fillet, flank, or rump; 1 garlic clove, finely chopped; 1 tsp fresh ginger, finely chopped; 4-5 cups broccoli florets (1 head); 1 cup water; sesame seeds, to serve (optional)",
-      "instructions": "1. Combine cornflour and water in a bowl, then add the remaining sauce ingredients and mix.\n2. Slice beef into 1/4 inch (0.5cm) thick slices. Place beef and 2 tbsp of the sauce in a bowl and set aside.\n3. Heat oil in a skillet over high heat. Add beef in a single layer and leave 1 minute until browned.\n4. Stir beef for 10 seconds, then add garlic and ginger and stir another 30 seconds until beef loses its pink color.\n5. Pour the sauce and water into the skillet and mix quickly.\n6. When the sauce bubbles, add broccoli. Stir to coat, then simmer 1 minute until the sauce thickens.\n7. Remove from heat immediately and serve over rice. Garnish with sesame seeds if desired.",
-      "url": "https://www.recipetineats.com/chinese-beef-and-broccoli-extra-saucy-take-out-style/",
-      "source": "pool",
-      "grocery": "12 oz flank steak; 1 large head broccoli; dark soy sauce; 1 tbsp Shaoxing wine; sesame oil; fresh ginger"
+      "ingredients": "1.5 lbs 80/20 ground beef chuck; salt, pepper, garlic powder for seasoning; 6 slices American cheese; 3-4 hamburger buns; 1-2 tbsp butter (for toasting buns); garden lettuce leaves; garden tomatoes, sliced; mayonnaise, mustard, pickles to taste",
+      "instructions": "1. Preheat Blackstone to medium-high, about 425-450F.\n2. Divide 1.5 lbs beef into 6 equal balls. Keep refrigerated until ready to cook.\n3. Lightly butter bun halves and toast cut-side down on griddle until golden; set aside.\n4. Working in batches, place beef balls on hot griddle with space between each.\n5. Cover each ball with parchment paper and press firmly flat with a spatula or burger press; hold 10 seconds.\n6. Season tops with salt, pepper, and garlic powder.\n7. Cook until edges are browned and beef is about halfway done; scrape under each patty and flip.\n8. Immediately top each patty with 1 slice American cheese.\n9. Once cheese melts, stack 2 patties per burger and transfer to toasted buns.\n10. Top with garden lettuce, sliced garden tomatoes, and desired condiments. Serve immediately.",
+      "url": "https://theflattopking.com/blackstone-smash-burgers/",
+      "source": "new",
+      "grocery": "1.5 lbs 80/20 ground beef; 4 hamburger buns; 6 slices American cheese; dill pickles"
     },
     {
       "day": "Saturday",
@@ -820,33 +898,33 @@
       "instructions": "1. Whisk together the flour, baking powder, salt and sugar.\n2. In another bowl whisk the milk, egg and melted butter.\n3. Combine wet and dry ingredients, stirring just until combined (lumps are fine).\n4. Heat a griddle over medium heat and lightly grease.\n5. Pour 1/4 cup batter per pancake; cook until bubbles form, then flip and cook until golden.\n6. Serve with butter and maple syrup.",
       "url": "",
       "source": "pool",
-      "grocery": "1.5 cups all-purpose flour; 1.25 cups milk; 1 egg; maple syrup"
+      "grocery": "1 box pancake mix; 2 eggs; 1 cup milk; maple syrup"
     },
     {
       "day": "Saturday",
       "meal": "lunch",
-      "name": "Grilled Cheese & Tomato Soup",
+      "name": "Turkey & Swiss Sandwiches",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "6 slices bread; 6 slices cheddar cheese (or 1 1/2 cups shredded); 3 tbsp butter, softened; 1 (24 oz) carton tomato soup",
-      "instructions": "1. Heat the tomato soup in a saucepan over medium until hot.\n2. Butter the outsides of the bread and assemble with cheese in the middle.\n3. Grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve with bowls of warm tomato soup.",
+      "ingredients": "6 slices bread; 12 oz sliced deli turkey; 6 slices Swiss cheese; lettuce leaves; 1 tomato, sliced; mayonnaise and mustard to taste",
+      "instructions": "1. Spread mayonnaise and/or mustard on the bread.\n2. Layer turkey, Swiss, lettuce and tomato on 3 slices.\n3. Top with the remaining bread, halve, and serve.",
       "url": "",
       "source": "pool",
-      "grocery": "6 slices bread; 6 slices cheddar cheese; 24 oz carton tomato soup"
+      "grocery": "6 oz sliced deli turkey; 4 slices Swiss cheese; 6 slices bread"
     },
     {
       "day": "Saturday",
       "meal": "dinner",
-      "name": "Slow-Roasted BBQ Pulled Pork",
-      "image": "https://thefoodcharlatan.com/wp-content/uploads/2022/07/Pulled-Pork-Recipe-Slow-Cooker-or-Oven-Roasted-22.jpg",
-      "cuisine": "American",
+      "name": "Ratatouille Baked Chicken",
+      "image": "https://www.skinnytaste.com/wp-content/uploads/2020/03/Ratatouille-Baked-Chicken-5.jpg",
+      "cuisine": "Italian",
       "effort": "involved",
-      "ingredients": "5-7 lb pork butt or pork shoulder, bone-in preferred; 3 tbsp olive oil; 1 tsp liquid smoke (optional); 2 tbsp vegetable oil for searing; 1 tbsp kosher salt (or 2 1/2 tsp table salt); 2 tsp black pepper; 1 tbsp paprika; 2 tsp garlic powder; 2 tsp onion powder; 1 tsp chili powder; 1 tsp cayenne pepper; 2 tsp cumin; 1 tsp dry mustard powder; 1/3 cup packed brown sugar; barbecue sauce, for serving; brioche hamburger buns, for serving; softened butter, for serving; coleslaw, for serving",
-      "instructions": "1. Split the pork butt into 3 equal pieces to speed cooking and maximize browned surfaces.\n2. Pat the pork dry and rub with 3 tbsp olive oil and the liquid smoke; apply all but 3 tbsp of the spice rub (salt, pepper, paprika, garlic powder, onion powder, chili powder, cayenne, cumin, dry mustard, brown sugar), working it into every crevice. Seal in a ziplock bag and marinate 6-48 hours refrigerated.\n3. Remove the pork and let it sit at room temperature for about 1 hour before cooking.\n4. Preheat oven to 425F for at least 20 minutes.\n5. Set an oven-safe wire cooling rack over a rimmed baking sheet and spray with nonstick coating; add 1 1/2 cups water to the pan bottom for humidity. Place the pork pieces on the rack fat caps up, not touching.\n6. Apply the remaining 3 tbsp spice rub to the pieces.\n7. Roast at 425F for 30 minutes to sear the edges and develop browning.\n8. Lower the oven to 300F, briefly opening the door (30-60 seconds) to cool the interior before continuing.\n9. Continue roasting at 300F for 3-5 hours, monitoring the water level and adding more as needed.\n10. Check internal temperature around the 3-hour mark; target 195-200F and remove at 200F (temperature continues rising after removal).\n11. Rest the pork 15-20 minutes, tented with foil, on a cutting board.\n12. Shred with two forks until completely separated, retaining rendered fat for flavor and discarding only gristle; serve with barbecue sauce on buttered brioche buns with coleslaw.",
-      "url": "https://thefoodcharlatan.com/pulled-pork-slow-cooker/",
-      "source": "pool",
-      "grocery": "3 lbs pork shoulder or pork butt; 4 brioche hamburger buns; 14 oz bag coleslaw mix; liquid smoke; apple cider vinegar"
+      "ingredients": "7 bone-in chicken thighs, skin removed; 1.75 tbsp extra-virgin olive oil; salt and freshly ground black pepper; 1 small yellow onion, roughly chopped; 4 cloves garlic, minced; 1 medium eggplant, peeled and cut into 1-inch cubes; 1 tbsp tomato paste; 1 tbsp fresh thyme, finely chopped; 2 medium zucchini, cut into 1/2-inch dice; 1 yellow bell pepper, cut into 1/2-inch squares; 4-5 vine-ripened garden tomatoes, cut into 1/2-inch dice; 3/4 cup fresh basil leaves, finely chopped",
+      "instructions": "1. Preheat oven to 400F.\n2. Heat Dutch oven over medium-high; add 1/2 tbsp olive oil until shimmering.\n3. Pat 7 chicken thighs dry, season with salt and pepper, and place in pan. Cook 5 minutes until browned.\n4. Flip chicken and cook 3 more minutes until second side begins browning. Remove to a plate.\n5. Reduce heat to medium; add remaining 1.25 tbsp olive oil, onion, 4 cloves garlic, and a pinch of salt. Cook 3 minutes until softened.\n6. Add cubed eggplant with salt; cook 5 minutes, stirring occasionally, until softened.\n7. Stir in 1 tbsp tomato paste and 1 tbsp fresh thyme; cook 1 minute, stirring constantly.\n8. Add diced zucchini, bell pepper, and 4-5 diced garden tomatoes with salt and pepper. Cook 10 minutes until vegetables are tender.\n9. Remove from heat; partially submerge chicken thighs into the vegetables.\n10. Transfer to oven and bake uncovered until internal temperature reaches 160F, about 20 minutes.\n11. Remove from oven and let stand 10 minutes. Stir in 3/4 cup fresh basil and serve.",
+      "url": "https://www.skinnytaste.com/ratatouille-baked-chicken/",
+      "source": "new",
+      "grocery": "7 bone-in chicken thighs; 1 medium eggplant; 1 yellow bell pepper; 1 onion"
     },
     {
       "day": "Sunday",
@@ -859,33 +937,33 @@
       "instructions": "1. Heat butter in a skillet over medium heat.\n2. Add the chopped vegetables and saute until softened, 3-4 minutes.\n3. Whisk the eggs with salt and pepper and pour into the pan.\n4. Gently stir until the eggs are nearly set, then fold in the cheese.\n5. Cook until the cheese melts and the eggs are just set; serve.",
       "url": "",
       "source": "pool",
-      "grocery": "6 large eggs; 1 bell pepper; 1 cup baby spinach; 1/2 cup shredded cheese"
+      "grocery": "9 eggs; 3/4 cup shredded cheese"
     },
     {
       "day": "Sunday",
       "meal": "lunch",
-      "name": "Ham & Swiss Melt",
+      "name": "Dinner Leftovers",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "6 slices bread; 9 oz sliced deli ham; 6 slices Swiss cheese; 2 tbsp Dijon mustard; 2 tbsp butter, softened",
-      "instructions": "1. Spread Dijon on 3 slices of bread.\n2. Layer ham and Swiss, top with the remaining bread.\n3. Butter the outsides and grill in a skillet over medium heat until golden and the cheese melts, 2-3 min per side.\n4. Slice and serve.",
+      "ingredients": "",
+      "instructions": "1. Reheat the prior night's dinner portion in the microwave or on the stovetop until hot.\n2. Refresh with a squeeze of lemon, fresh herbs, or a small side salad if desired.",
       "url": "",
       "source": "pool",
-      "grocery": "9 oz sliced deli ham; 6 slices Swiss cheese; 6 slices bread; Dijon mustard"
+      "grocery": ""
     },
     {
       "day": "Sunday",
       "meal": "dinner",
-      "name": "Skirt Steak with Chimichurri",
-      "image": "https://www.recipetineats.com/tachyon/2016/08/Steak-with-Chimichurri-Sauce_1.jpg",
+      "name": "Blackstone Carne Asada Tacos",
+      "image": "https://ifyougiveagirlagrill.com/wp-content/uploads/2023/12/IMG_3796.jpg",
       "cuisine": "Mexican",
-      "effort": "quick",
-      "ingredients": "700g/1.4lb skirt, flank, or flat iron steak, at room temperature; salt and pepper, to season; 1 cup parsley leaves, tightly packed; 1 tbsp oregano leaves, tightly packed; 4 garlic cloves, minced; 0-2 tsp red pepper flakes (optional); 1/4 cup (65ml) red wine vinegar; 1/2 tsp salt; black pepper; 1/2 cup (125ml) extra virgin olive oil; 1 tbsp vegetable or canola oil (for cooking)",
-      "instructions": "1. Place all chimichurri ingredients except the oil in a food processor. Whizz until the parsley is finely chopped but not pureed (or chop by hand).\n2. Transfer to a small bowl, add the olive oil and gently stir. Set aside for 1 hour before using (overnight is even better). Makes about 3/4 cup.\n3. Take the steak out of the fridge 30 minutes before cooking.\n4. Heat a BBQ or heavy-based skillet with 1 tbsp vegetable or canola oil over high heat until smoking.\n5. Sprinkle each side of the steak generously with salt and pepper.\n6. Add the steak and cook to your liking: 2 minutes each side for medium rare, or 2 1/2 minutes each side for medium.\n7. Transfer to a plate, cover loosely with foil and rest for 5-10 minutes.\n8. Cut thin slices against the grain and serve with the chimichurri sauce on the side.",
-      "url": "https://www.recipetineats.com/skirt-steak-with-chimichurri-sauce/",
-      "source": "pool",
-      "grocery": "1.4 lbs skirt or flank steak; 1 cup fresh flat-leaf parsley; fresh oregano; red wine vinegar"
+      "effort": "medium",
+      "ingredients": "1.1 lbs strip steak, cubed; 3/4 bunch cilantro; 3.5 tbsp lime juice (about 2 limes); 3.5 tbsp orange juice; 2.5 tbsp olive oil; 1/2 jalapeno pepper (optional); 3 cloves garlic; 1 tsp honey; 1.5 tsp chili powder; 1.5 tsp paprika; 1.5 tsp cumin; 1/4 tsp cinnamon; salt, pepper, red pepper flakes to taste; cooking oil; 8-9 corn tortillas; cotija cheese; 2-3 garden tomatoes (for pico); 1/4 onion, diced (for pico); lime juice for pico",
+      "instructions": "1. Cut 1.1 lbs strip steak into small cubes; place in a gallon bag.\n2. Blend 3/4 bunch cilantro, 3.5 tbsp lime juice, 3.5 tbsp orange juice, 2.5 tbsp olive oil, 1/2 jalapeno, 3 cloves garlic, 1 tsp honey, 1.5 tsp chili powder, 1.5 tsp paprika, 1.5 tsp cumin, 1/4 tsp cinnamon, salt, and pepper until smooth.\n3. Add half the marinade to steak; massage bag and refrigerate at least 2 hours.\n4. Make pico de gallo: dice garden tomatoes with onion, cilantro, lime juice, and salt; set aside.\n5. Preheat Blackstone to medium; add cooking oil and marinated steak. Cook 5-6 minutes, stirring occasionally.\n6. Pour in remaining marinade during the last minute; toss well.\n7. Remove steak; scrape griddle clean. Add oil and corn tortillas; cook about 1 minute per side.\n8. Assemble tacos with carne asada, cotija cheese, cilantro, and fresh pico de gallo.",
+      "url": "https://ifyougiveagirlagrill.com/2023/12/17/blackstone-carne-asada-tacos/",
+      "source": "new",
+      "grocery": "1.1 lbs strip steak; 8 corn tortillas; 3 oz cotija cheese; 2 limes; 1 orange; 1 bunch cilantro"
     }
   ],
   "grocery": {

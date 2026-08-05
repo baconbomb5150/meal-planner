@@ -14,12 +14,12 @@
   // "tomato soup"->Pantry, "pineapple juice"->Condiments — all before Produce/Meat).
   const RULES = [
     // Condiments BEFORE Pantry so "rice vinegar" isn't grabbed by the "rice" keyword.
-    ['Condiments & Sauces', /\b(soy sauce|fish sauce|hoisin|oyster sauce|sriracha|ketchup|mustard|mayo|mayonnaise|worcestershire|vinegar|pesto|salsa|sauce|honey|syrup|sesame oil|balsamic|teriyaki|sherry|shaoxing|cooking wine|liquid smoke|juice|dressing|vinaigrette|hummus)\b/],
-    ['Pantry & Dry Goods', /\b(broth|stock|flour|breadcrumbs?|panko|sugar|rice|pasta|noodles?|rotini|spaghetti|oats|cornstarch|chia|seeds?|granola|soup|baking|nuts?|walnuts?|cashews?|almonds?)\b/],
+    ['Condiments & Sauces', /\b(soy sauce|fish sauce|hoisin|oyster sauce|sriracha|ketchup|mustard|mayo|mayonnaise|worcestershire|vinegar|pesto|salsa|sauce|honey|syrup|sesame oil|balsamic|teriyaki|sherry|shaoxing|cooking wine|liquid smoke|juice|dressing|vinaigrette|hummus|pickles?)\b/],
+    ['Pantry & Dry Goods', /\b(broth|stock|flour|breadcrumbs?|panko|sugar|rice|pasta|noodles?|rotini|spaghetti|oats|cornstarch|chia|seeds?|granola|soup|baking|nuts?|walnuts?|cashews?|almonds?|pancake)\b/],
     ['Bakery', /\b(bread|buns?|rolls?|bagels?|tortillas?|naan|pita|loaf|loaves)\b/],
-    ['Dairy & Eggs', /\b(eggs?|milk|cream|butter|cheese|parmesan|mozzarella|cheddar|feta|swiss|yogurt|sour cream|ricotta)\b/],
+    ['Dairy & Eggs', /\b(eggs?|milk|cream|butter|cheese|parmesan|mozzarella|cheddar|feta|swiss|yogurt|sour cream|ricotta|cotija)\b/],
     ['Meat & Seafood', /\b(chicken|beef|pork|steaks?|thighs?|breasts?|quarters?|ground|bacon|sausage|ham|turkey|tuna|salmon|shrimp|chorizo|ribs)\b/],
-    ['Produce', /\b(onions?|garlic|asparagus|potato(?:es)?|lemons?|limes?|ginger|rosemary|parsley|oregano|herbs?|thyme|basil|cilantro|tomato(?:es)?|lettuce|berr(y|ies)|pineapple|scallions?|green onion|avocados?|cabbage|coleslaw|carrots?|celery|spinach|kale|mushrooms?|cucumbers?|zucchini|apples?|bananas?|broccoli|cauliflower|shallots?|leeks?|corn|greens?|vegetables?|fruit|peppers?|chili(?:es)?|bok choy|snap peas?|green beans?|broccolini)\b/],
+    ['Produce', /\b(onions?|garlic|asparagus|potato(?:es)?|lemons?|limes?|ginger|rosemary|parsley|oregano|herbs?|thyme|basil|cilantro|mint|tomato(?:es)?|lettuce|berr(y|ies)|pineapple|oranges?|scallions?|green onion|avocados?|cabbage|coleslaw|carrots?|celery|spinach|kale|mushrooms?|cucumbers?|zucchini|apples?|bananas?|broccoli|cauliflower|shallots?|leeks?|corn|greens?|vegetables?|fruit|peppers?|chili(?:es)?|bok choy|snap peas?|green beans?|broccolini|eggplant)\b/],
   ];
 
   function classify(name) {
