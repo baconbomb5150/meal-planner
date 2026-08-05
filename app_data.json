@@ -734,15 +734,15 @@
     {
       "day": "Tuesday",
       "meal": "breakfast",
-      "name": "Greek Yogurt with Berries & Granola",
+      "name": "Avocado Toast with Fried Egg",
       "image": "",
       "cuisine": "American",
       "effort": "quick",
-      "ingredients": "3 cups plain or vanilla Greek yogurt; 1 1/2 cups mixed fresh berries; 3/4 cup granola; 3 tsp honey (optional)",
-      "instructions": "1. Spoon 1 cup yogurt into each of 3 bowls.\n2. Top each with 1/2 cup berries and 1/4 cup granola.\n3. Drizzle with honey if desired and serve.",
+      "ingredients": "6 slices hearty bread; 2 ripe avocados; 6 large eggs; 1 tbsp oil or butter; salt, pepper, and red pepper flakes to taste; 1/2 lemon (optional)",
+      "instructions": "1. Toast the bread.\n2. Mash the avocado with a squeeze of lemon, salt and pepper; spread on the toast.\n3. Fry the eggs in oil or butter to desired doneness.\n4. Top each toast with a fried egg, season with salt, pepper and red pepper flakes, and serve.",
       "url": "",
       "source": "pool",
-      "grocery": "24 oz Greek yogurt; 1.5 cups mixed berries; 3/4 cup granola"
+      "grocery": "3 avocados; 3 eggs; 6 slices bread"
     },
     {
       "day": "Tuesday",
